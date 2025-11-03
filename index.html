@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shareable Quote Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Shareable Quote Generator</h1>
+            <p class="tagline">Find inspiration and share wisdom with the world</p>
+        </header>
+
+        <div class="quote-container">
+            <div class="loading" id="loading">
+                <i class="fas fa-spinner"></i> Loading quote...
+            </div>
+            <div class="quote-text" id="quote-text">
+                Click the button to generate an inspiring quote!
+            </div>
+            <div class="quote-author" id="quote-author"></div>
+            <div class="error" id="error">
+                Failed to load quote. Please try again.
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-primary" id="new-quote">
+                <i class="fas fa-sync-alt"></i> New Quote
+            </button>
+            <div class="share-options">
+                <div class="share-btn twitter" title="Share on Twitter">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="share-btn facebook" title="Share on Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="share-btn linkedin" title="Share on LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div class="share-btn whatsapp" title="Share on WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="share-btn copy" title="Copy to Clipboard">
+                    <i class="fas fa-copy"></i>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Made with <i class="fas fa-heart" style="color: #e74c3c;"></i> | Shareable Quote Generator &copy; 2025</p>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
