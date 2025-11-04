@@ -1,2 +1,3 @@
 # Sharable Quote Generator App
-HTML, CSS, and JS
+using HTML, CSS, and JS
+used to share a quote from a generated set of quotes listed
